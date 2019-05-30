@@ -1,0 +1,30 @@
+nav {
+	background-color: white;
+	color: black;
+	width: 25vw;
+	height: 17vh;
+	position:fixed;
+	top: 0;
+	right: 0;
+	flex-direction: column;
+	margin-top: 6vh;
+	margin-left: auto;
+	margin-right: 5vw;
+	border: 2px solid black;
+}
+
+.menu {
+	position:absolute;
+	top: 7rem;
+	right: 3rem;
+}
+
+header{
+  margin-left:3rem;
+}
+
+body{
+	margin: 2vw ;
+	overflow-x:hidden;
+
+}

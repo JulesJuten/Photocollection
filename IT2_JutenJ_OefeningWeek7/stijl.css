@@ -1,0 +1,220 @@
+
+
+body {
+	font-family: helvetica;
+	font-size: 1.65rem;
+	margin: 5vw auto;
+	background-image: url("afb/paperback.jpg");
+	
+}
+
+footer{
+	background-color: black;
+	color: white;
+	font-family:"American Typewriter";
+	padding: 2rem;
+	text-align:center;
+	font-size: 1.2rem;
+	height: 20vh;
+	width: 100vw;
+	margin-top: 2rem;
+}
+
+footer p {
+	margin:1rem;
+}
+.afbeeldingen img {
+	border-radius: .4rem;
+	filter: grayscale(100%);
+}
+
+
+.afbeeldingen img:hover {
+	filter: grayscale(0%);
+}
+
+#logoweb{
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	margin-top:2rem;
+}
+
+
+header img {
+	height:3rem;
+	width: 3rem;
+
+}
+
+
+
+main {
+	column-count: 1;
+
+}
+
+.menu {
+	position:fixed;
+	top: 3rem;
+	right: 3rem;
+}
+
+
+.menu img:hover{
+transform: rotate(-90deg);
+transition-delay: .2s;
+}
+
+
+.hamburger {
+          position: relative;
+          display: inline-block;
+          width: 3rem;
+          height: 3rem;
+          margin-right: 0.5rem;
+          margin-left: 1rem;
+          border-top: 0.5rem solid #2c6333;
+          border-bottom: 0.5rem solid #2c6333;
+      }
+
+      .hamburger:before {
+          content: "";
+          position: absolute;
+          top: 0.7rem;
+          left: 0px;
+          width: 100%;
+          border-top: 0.5rem solid #2c6333;
+      }
+nav {
+	background-color: white;
+	width: 25vw;
+	height: 15vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	flex-direction: column;
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: 5vw;
+	border: 2px solid black;
+}
+
+nav a {
+	color: black;
+	text-align: center;
+	padding: 1rem;
+	font-family: 'American Typewriter', cursive;
+}
+
+nav.onzichtbaar {
+	display: none;
+}
+
+nav a:hover {
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 4rem;
+	font-family: 'Graduate', cursive;
+	margin-bottom: 5vw;
+	text-align: center;
+}
+
+.light{
+	position: relative;
+	left:4.5rem;
+	bottom:6.8rem;
+	}
+
+	.light img {
+		height: 3.6rem;
+		width: 4rem;
+	}
+
+	.light img:hover{
+	transform: rotate(-90deg);
+	}
+
+
+	.dark img{
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.dark img:hover{
+	transform: rotate(-90deg);
+	}
+
+
+
+h2 {
+	font-size: 1.5rem;
+	font-family: 'Graduate';
+	margin-bottom: 5vw;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+a {
+	display: block;
+	margin-bottom: 3rem;
+	break-inside: avoid;
+	/* https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside */
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+
+}
+	main {
+		column-count:2;
+		column-gap: 2vw;
+	}
+	h1 {
+		font-weight: 900;
+		font-size: 6rem;
+		font-family: 'Graduate', cursive;
+		margin-bottom: 5vw;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2rem;
+		font-family: 'Graduate';
+		margin-bottom: 5vw;
+		text-align: center;
+		text-transform: lowercase;
+	}
+
+	#logoweb{
+		width: 8rem;
+		height: 8rem;
+		border-radius: 50%;
+	}
+
+
+
+@media (min-width: 900px) {
+	main {
+		column-count:3;
+		column-gap: 3vw;
+	}
+
+
+	@media (min-width: 1050px) {
+
+	}
